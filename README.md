@@ -67,7 +67,7 @@ Data Analysis Expressions (DAX) is a formula expression language used to develop
     ``` 
     
     ```dax
-Year = YEAR(DateMaster[Date])
+    Year = YEAR(DateMaster[Date])
     ```
 
 DAX formulas to measure 'Month on Month' profit growth:
