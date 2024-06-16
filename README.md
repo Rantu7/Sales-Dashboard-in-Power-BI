@@ -44,7 +44,29 @@ Data Analysis Expressions (DAX) is a formula expression language used to develop
    ```dax
    DateMaster = CALENDAR(FIRSTDATE(Sales[Date]),LASTDATE(Sales[Date]))
     ```
+     ```dax
+   Month = FORMAT(DateMaster[Date],"MMM")
+    ```
+   ```dax
+   MonthOrder = DateMaster[Date].[MonthNo]
+    ```
+      ```dax
+  Quarter = QUARTER(DateMaster[Date])
+    ```
+          ```dax
+WeekDay = FORMAT( WEEKDAY(DateMaster[Date]),"DDD"))
+    ```
+          ```dax
+WeekNum = WEEKNUM(DateMaster[Date])
+    ```
+           ```dax
+Year = YEAR(DateMaster[Date])
+    ```
 
+DAX formulas to measure 'Month on Month' profit growth:
+        ```dax
+Prev Month Profit = CALCULATE(SUM(Sales[Gross Profit]), PREVIOUSMONTH(DateMaster[Date]))
+MoM Growth = (SUM(Sales[Gross Profit])-[Prev Month Profit])/ [Prev Month Profit]
 
-
+    ```
 
