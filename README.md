@@ -23,12 +23,6 @@ The following steps were taken to complete the report :
 
   ## Data Collection:
 The data was provided in separate files in multiple file types. A brief description about the data:
-1.	Sales data folder from 2014 to 2017 (.csv)
-2.	Categories (.xlsx)
-3.	Geography(.xlsx)
-4.	Product(.csv)
-5.	Salesrep(.xlsx)
-6.	Subcategories (.xlsx)
 
 ![Screenshot_32](https://github.com/Rantu7/Sales-Dashboard-in-Power-BI/assets/167998182/67a871e6-91a1-4533-8bed-533444d5b081)
 
