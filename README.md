@@ -78,11 +78,11 @@ QoQ Growth = (SUM(Sales[Total Revenue]) - [Prev QTR])/[Prev QTR]
 
    ```
 DAX formulas to measure Total revenue, Total cost and Total profit:
-    ```dax
+  ```dax
   Total Revenue = Sales[Units]* RELATED('Product'[RetailPrice])
 Total Cost = Sales[Units]*RELATED('Product'[StandardCost])
 Gross Profit = Sales[Total Revenue]-Sales[Total Cost]
-    ```
+  ```
 
   Now the dataset is ready for Data Modeling step!
   
