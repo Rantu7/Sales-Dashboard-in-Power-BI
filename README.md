@@ -62,17 +62,17 @@ Data Analysis Expressions (DAX) is a formula expression language used to develop
    WeekDay = FORMAT( WEEKDAY(DateMaster[Date]),"DDD"))
     ```
     
-          ```dax
+   ```dax
         WeekNum = WEEKNUM(DateMaster[Date])
-         ``` 
+    ``` 
     
-           ```dax
+    ```dax
 Year = YEAR(DateMaster[Date])
     ```
 
 DAX formulas to measure 'Month on Month' profit growth:
        
-        ```dax
+   ```dax
 Prev Month Profit = CALCULATE(SUM(Sales[Gross Profit]), PREVIOUSMONTH(DateMaster[Date]))
 MoM Growth = (SUM(Sales[Gross Profit])-[Prev Month Profit])/ [Prev Month Profit]
     ```
