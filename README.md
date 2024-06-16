@@ -41,32 +41,39 @@ The dataset was loaded into Power BI’s power query and cleaned to prepare for 
 ## DAX Calculations
 Data Analysis Expressions (DAX) is a formula expression language used to develop measures, calculated columns, calculated tables, and row-level security in Power BI. To fulfill the business requirements and conduct Data modeling, the following DAX formulas were used:
 1. For time series analysis, a separate folder named 'Datemaster', that only contained tables with Year, Month, Quarter and Date was created. Months, years, dates and quarters were extracted using the below codes:
+ 
    ```dax
    DateMaster = CALENDAR(FIRSTDATE(Sales[Date]),LASTDATE(Sales[Date]))
     ```
+   
      ```dax
    Month = FORMAT(DateMaster[Date],"MMM")
     ```
+     
    ```dax
    MonthOrder = DateMaster[Date].[MonthNo]
     ```
-      ```dax
+   
+   ```dax
   Quarter = QUARTER(DateMaster[Date])
     ```
-          ```dax
+    
+    ```dax
 WeekDay = FORMAT( WEEKDAY(DateMaster[Date]),"DDD"))
     ```
+    
           ```dax
 WeekNum = WEEKNUM(DateMaster[Date])
     ```
+    
            ```dax
 Year = YEAR(DateMaster[Date])
     ```
 
 DAX formulas to measure 'Month on Month' profit growth:
+       
         ```dax
 Prev Month Profit = CALCULATE(SUM(Sales[Gross Profit]), PREVIOUSMONTH(DateMaster[Date]))
 MoM Growth = (SUM(Sales[Gross Profit])-[Prev Month Profit])/ [Prev Month Profit]
-
     ```
 
