@@ -1,4 +1,5 @@
 # <p align="center">Sales Dashboard in Power BI</p>
+# <p align="center">![Screenshot_30](https://github.com/Rantu7/Sales-Dashboard-in-Power-BI/assets/167998182/c91daed5-720b-4b95-b50c-b224b6f83abe)</p>
 
 ## Objective
 The objective of this project is to gain valuable insights by answering critical business questions posed by the owner. By utilizing the data transformation, visualization and DAX calculation functions available in Power BI, this project aims to present KPIs such as total revenue, total units sold, total profit, average sales etc. Time series analysis, Cost and revenue by location, revenue by product name and category etc. were also analyzed to find insights about the business and help facilitate data driven decision making.
