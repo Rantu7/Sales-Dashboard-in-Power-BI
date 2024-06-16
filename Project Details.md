@@ -27,15 +27,19 @@ The following steps were taken to complete the report :
 6.	Insights and feedback
 
   ## Data Collection:
-The data was provided in separate files in multiple file types which can be accessd [here](https://drive.google.com/drive/folders/1osPrmC-Nb19w1XAPDMkfUIVRR2iER4ZB) . A brief description about the data:
+The data was provided in separate files in multiple file types which can be accessed [here](https://drive.google.com/drive/folders/1osPrmC-Nb19w1XAPDMkfUIVRR2iER4ZB) . A brief description about the data:
 
 ![Screenshot_32](https://github.com/Rantu7/Sales-Dashboard-in-Power-BI/assets/167998182/67a871e6-91a1-4533-8bed-533444d5b081)
 
 ## Data Cleaning:
 The dataset was loaded into Power BI’s power query and cleaned to prepare for the next step. Data cleaning included the following steps:
-•	Removing duplicates
-•	Remove unnecessary columns
+
+•	Removed duplicates
+
+•	Removed unnecessary columns
+
 •	Handled blank and null values
+
 •	Fixed data types 
 
 ## DAX Calculations
