@@ -1,4 +1,4 @@
-# <p align="center">Sales Dashboard in Power BI by Rantu Adhikary</p>
+# <p align="center">Sales Report in Power BI by Rantu Adhikary</p>
 # <p align="center">![Screenshot_30](https://github.com/Rantu7/Sales-Dashboard-in-Power-BI/assets/167998182/c91daed5-720b-4b95-b50c-b224b6f83abe)</p>
 
 ## Objective
@@ -107,7 +107,7 @@ Below image shows the data after modeling:
  Now the data set is ready for visualization as the dimensions and fact tables are organized and connected among each other through data modeling.
 
 ## Data Visualization:
-Relevant charts and graphs available in Power BI were used to create an appealing dashboard that fulfills all the business requirements. The main goal was to make the dashboard look aesthetic and easy to comprehend but also insightful. Below are screenshots of the report which can be downloaded [here](https://github.com/Rantu7/Sales-Dashboard-in-Power-BI/blob/main/salesProject_Rantu.pbix):
+Relevant charts and graphs available in Power BI were used to create an appealing report that fulfilled all the business requirements. The main goal was to make the report look aesthetic and easy to comprehend but also insightful. Below are screenshots of the report which can be downloaded [here](https://github.com/Rantu7/Sales-Dashboard-in-Power-BI/blob/main/salesProject_Rantu.pbix):
 
 Page 1:
 ![Screenshot_30](https://github.com/Rantu7/Sales-Dashboard-in-Power-BI/assets/167998182/c91daed5-720b-4b95-b50c-b224b6f83abe)
