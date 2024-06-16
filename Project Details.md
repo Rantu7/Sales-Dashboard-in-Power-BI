@@ -1,4 +1,4 @@
-# <p align="center">Sales Dashboard in Power BI</p>
+# <p align="center">Sales Dashboard in Power BI by Rantu Adhikary</p>
 # <p align="center">![Screenshot_30](https://github.com/Rantu7/Sales-Dashboard-in-Power-BI/assets/167998182/c91daed5-720b-4b95-b50c-b224b6f83abe)</p>
 
 ## Objective
