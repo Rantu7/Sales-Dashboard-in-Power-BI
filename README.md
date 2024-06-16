@@ -29,7 +29,7 @@ The data was provided in separate files in multiple file types. A brief descript
 5.	Salesrep(.xlsx)
 6.	Subcategories (.xlsx)
 
-![Q1](https://ibb.co/sgSCV41.png)
+![Q1](https://ibb.co/sgSCV41/1.png)
 
 ## Data Cleaning:
 The dataset was loaded into Power BI’s power query and cleaned to prepare for the next step. Data cleaning included the following steps:
