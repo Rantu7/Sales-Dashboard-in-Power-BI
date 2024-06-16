@@ -55,16 +55,16 @@ Data Analysis Expressions (DAX) is a formula expression language used to develop
     ```
    
    ```dax
-  Quarter = QUARTER(DateMaster[Date])
+   Quarter = QUARTER(DateMaster[Date])
     ```
     
     ```dax
-WeekDay = FORMAT( WEEKDAY(DateMaster[Date]),"DDD"))
+   WeekDay = FORMAT( WEEKDAY(DateMaster[Date]),"DDD"))
     ```
     
           ```dax
-WeekNum = WEEKNUM(DateMaster[Date])
-    ```
+        WeekNum = WEEKNUM(DateMaster[Date])
+         ``` 
     
            ```dax
 Year = YEAR(DateMaster[Date])
