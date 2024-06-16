@@ -6,6 +6,7 @@ The objective of this project is to gain valuable insights by answering critical
 
 ## Business Requirements:
 The sales report should be an interactive dashboard with filtering options and must contain the following information:
+
 •	Sales KPI
 
 •	YoY growth, MoM growth, QoQ growth
@@ -92,9 +93,11 @@ Gross Profit = Sales[Total Revenue]-Sales[Total Cost]
   
  ## Data Modeling: 
 The purpose of data modeling in any data analysis project is to create relationship among multiple separate data tables to structure, organize, analyze and improve clarity of the data. For this project Sales data was considered as the 'Fact table' and the other tables were considered as 'Dimension table'. Dimension tables connect to the Fact table via each other using one to many relationship. Index columns were added as required to connect the tables. Below image shows the data before  modeling:
+
 ![model 01](https://github.com/Rantu7/Sales-Dashboard-in-Power-BI/assets/167998182/fe2029eb-1607-4a71-9713-b65eca4781ab)
 
 Below image shows the data after modeling:
+
 ![model 02](https://github.com/Rantu7/Sales-Dashboard-in-Power-BI/assets/167998182/7a6da1dc-5d6e-46ec-923d-bdbe57ae2979)
 
  Now the data set is ready for visualization as the dimensions and fact tables are organized and connected among each other through data modeling.
