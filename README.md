@@ -7,9 +7,13 @@ The objective of this project is to gain valuable insights by answering critical
 ## Business Requirements:
 The sales report should be an interactive dashboard with filtering options and must contain the following information:
 •	Sales KPI
+
 •	YoY growth, MoM growth, QoQ growth
+
 •	Best sales reps
+
 •	Location wise sales information
+
 •	Any other relevant graphs or charts to find insights
 
 ## Workflow:
@@ -22,7 +26,7 @@ The following steps were taken to complete the report :
 6.	Insights and feedback
 
   ## Data Collection:
-The data was provided in separate files in multiple file types. A brief description about the data:
+The data was provided in separate files in multiple file types which can be accessd [here](https://drive.google.com/drive/folders/1osPrmC-Nb19w1XAPDMkfUIVRR2iER4ZB) . A brief description about the data:
 
 ![Screenshot_32](https://github.com/Rantu7/Sales-Dashboard-in-Power-BI/assets/167998182/67a871e6-91a1-4533-8bed-533444d5b081)
 
@@ -96,7 +100,7 @@ Below image shows the data after modeling:
  Now the data set is ready for visualization as the dimensions and fact tables are organized and connected among each other through data modeling.
 
 ## Data Visualization:
-Relevant charts and graphs available in Power BI were used to create an appealing dashboard that fulfills all the business requirements. The main goal was to make the dashboard look aesthetic and easy to comprehend but also insightful. Below are screenshots of the report which can be downloaded here:
+Relevant charts and graphs available in Power BI were used to create an appealing dashboard that fulfills all the business requirements. The main goal was to make the dashboard look aesthetic and easy to comprehend but also insightful. Below are screenshots of the report which can be downloaded [here](https://github.com/Rantu7/Sales-Dashboard-in-Power-BI/blob/main/salesProject_Rantu.pbix):
 
 Page 1:
 ![Screenshot_30](https://github.com/Rantu7/Sales-Dashboard-in-Power-BI/assets/167998182/c91daed5-720b-4b95-b50c-b224b6f83abe)
